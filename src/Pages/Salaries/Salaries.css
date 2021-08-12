@@ -1,0 +1,99 @@
+.Salaries_container {
+    background-color: #ebebeb;
+}
+
+.salaries {
+    padding: 20px 150px;
+    display: flex;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+    .salaries {
+        padding-top: 20px; 
+        padding-left: 20px;
+        padding-right: 0px!important;
+        flex-wrap: wrap;
+    }
+
+    .Search_box {
+      flex-wrap: wrap;
+      padding: 50px;
+    }
+
+    .search_container {
+        flex-wrap: wrap;
+        width: 400px;
+    }
+
+    .search_textfield {
+        width: 400px;
+        padding: 0px!important;
+    }
+
+    .search_container button{
+      margin: 50px;
+    }
+    
+
+}
+
+/* first head and button container of salaries */
+.search_container {
+    flex-basis: 50%;
+}
+
+/* img container of salaries */
+.searching_sec {
+    flex-basis: 50%;
+}
+
+.search_container h1 {
+    font-size: 30px;
+}
+
+.searching_sec img {
+    width: 400px;
+}
+
+.salaries p {
+ text-align: left;
+}
+
+.salaries span {
+    color: rgb(60, 18, 116);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* textfileld and button section */
+.Search_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.search_textfield { 
+    flex-basis: 70%;
+    width: 500px;
+}
+
+.search_container .search_salbtn {
+    margin-left: 20px;
+    background-color: blue;
+    color: #ffffff;
+    border: .125rem solid blue;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0.25em;
+    border-radius: 6.25rem;
+    text-align: center;
+    align-items: center;
+  }
+
+
+
+

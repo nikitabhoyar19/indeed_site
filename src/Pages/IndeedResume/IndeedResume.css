@@ -1,0 +1,89 @@
+.Inde_emp {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #f2f2f2;
+  }
+
+  .Indeed_res {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #fff;
+  }
+
+  @media only screen and (max-width: 700px) {
+   
+    .Indeed_res {
+     width: 400px;
+    }  
+  
+  }
+
+  .Indeed_res p {
+    font-size: 18px!important;
+    font-weight: 400;
+    color: #000;
+    text-align: left;
+  }
+
+  .Upload_and_build {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+    }
+  
+    .Upload_and_build button {
+      background-color: #085ff7;
+      color: #fff;
+      border: .125rem solid #085ff7;
+      margin-top: 1em;
+      padding: 8px 10px;
+      font-size: 1em;
+      font-weight: lighter;
+      letter-spacing: 1px;
+      margin-bottom: 0.25em;
+      border-radius: 6.25rem;
+    }
+  
+    .Upload_and_build button:hover {
+      color: #2630bb;
+      background-color: #fff;
+      border: 2px solid #1a0dd3;
+    }
+  
+    @media only screen and (max-width: 700px) {
+
+    .Upload_and_build {
+        display: flex;
+        flex-direction: column;
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

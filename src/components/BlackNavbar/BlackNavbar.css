@@ -1,0 +1,121 @@
+/* navbar */
+.BlackNav a {
+  padding: 0 15px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.BlackNav {
+  padding: 10px;
+  min-height: 70px;
+  background-color: #2d2d2d;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid rgb(240, 234, 234);
+  }
+
+ .BlackNav .logoSec {
+  padding-left: 30px;
+} 
+  
+  .firstSec {
+  }
+
+  .secondSec {
+      padding-right: 0px;
+  }
+
+  .BlackNav .logo {
+      width: 100px;
+      padding-left: 0px;
+  }
+
+  .bluesec {
+    color: #2557a7 !important;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  /* box icon q mark */
+.qicon {
+  color: white;
+}
+
+.BlackNav .menus, .WhiteNav .closed {
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 2px solid blue;
+  padding: 5px 10px;
+  color: white;
+  background: #2557a7 ;
+  font-size: bold;
+  margin-right: 20px;
+  display: none;
+}
+
+.BlackNav .closed {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  border-radius: 5px;
+  color: black;
+}
+
+@media only screen and (max-width: 780px) {
+
+ .BlackNav {
+     width: 100%;
+     margin: 0;
+     text-align: center;
+     line-height: 50px;
+ }
+   /* .secondSection {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+   } */
+
+}
+
+@media only screen and (max-width: 500px) {
+
+.BlackNav ul {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: grey;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    z-index: 99;
+    transition: 0.5 linear;
+}
+
+.BlackNav ul.toggle {
+    left: 0;
+}
+
+.BlackNav ul a {
+    line-height: normal;
+}
+
+.BlackNav .menus, .WhiteNav .closed {
+    display: block;
+}
+
+.BlackNav .logo {
+    width: 100px;
+    margin-left: 0px;
+    line-height: 70px;
+}
+
+
+}

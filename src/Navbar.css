@@ -1,0 +1,135 @@
+.WhiteNav a {
+    padding: 0 15px;
+    color: #000;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.WhiteNav {
+    padding: 10px;
+    min-height: 70px;
+    background-color: white;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid rgb(240, 234, 234);
+  }
+
+ .WhiteNav .logoSec {
+     padding-left: 30px;
+ } 
+  
+  .firstSection {
+      
+  }
+
+  .secondSection {
+      padding-right: 0px;
+  }
+
+  .WhiteNav .logo {
+      width: 100px;
+  }
+
+  .WhiteNav .bluesec {
+    color: #2557a7 !important;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .WhiteNav .menus, .WhiteNav .close {
+      cursor: pointer;
+      text-transform: uppercase;
+      border: 2px solid blue;
+      padding: 5px 10px;
+      color: white;
+      background: #2557a7 ;
+      font-size: bold;
+      margin-right: 20px;
+      display: none;
+  }
+
+  .WhiteNav .close {
+      position: absolute;
+      top: 10px;
+      right: 0;
+      border-radius: 5px;
+  }
+
+  @media only screen and (max-width: 780px) {
+
+     .WhiteNav {
+         width: 100%;
+         margin: 0;
+         text-align: center;
+         line-height: 50px;
+     }
+       /* .secondSection {
+        display: flex;
+        justify-content: flex-end;
+        text-align: center;
+       } */
+
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    .WhiteNav ul {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background: grey;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        z-index: 99;
+        transition: 0.5 linear;
+    }
+
+    .WhiteNav ul.toggle {
+        left: 0;
+    }
+
+    .WhiteNav ul a {
+        line-height: normal;
+    }
+
+    .WhiteNav .menus, .WhiteNav .close {
+        display: block;
+    }
+
+    .WhiteNav .logo {
+        width: 100px;
+        margin-left: 0px;
+        line-height: 70px;
+    }
+    
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

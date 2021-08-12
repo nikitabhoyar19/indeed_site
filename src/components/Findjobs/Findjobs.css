@@ -1,0 +1,91 @@
+.job-container {
+    max-width: 900px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin: auto;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.what-job {
+    flex-basis: 40%;
+    
+}
+
+.where-job {
+    flex-basis: 40%;
+    
+}
+
+@media only screen and (max-width: 700px) {
+   .what-job, .where-job {
+    padding-left: 20px;
+   }
+
+   .btn-container {
+    flex-basis: 50%!important;
+   }
+
+   .findbtn {
+       margin-top: 10px!important;
+       padding-left: 20px;
+   }
+}
+
+.btn-container {
+    flex-basis: 20%;
+}
+
+.search-box {
+    padding-top: 20px;
+}
+
+span {
+font-size: 15px;
+font-weight: 200;
+color: rgb(165, 163, 163);
+}
+
+.outlined-basic {
+    width: 350px;
+}
+
+.headcontent {
+   color: #2d2d2d !important;
+   font-size: 1.4375rem;
+   font-weight: 700; 
+}
+
+.smallcontent {
+    color: #6d6a6a !important;
+    font-size: 15px;
+    font-weight: 400; 
+ 
+}
+
+.findbtn {
+    margin-top: 85px;
+    min-height: 60px;
+}
+
+.bluesec {
+    color: #2557a7 !important;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.whiteSec {
+    color: white !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+}

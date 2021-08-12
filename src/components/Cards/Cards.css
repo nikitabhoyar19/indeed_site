@@ -1,0 +1,44 @@
+.CardContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.NumberCard {
+    max-width: 340px;
+    margin: 20px;
+    max-height: 500px;
+    padding: 20px;
+    border: 1px solid rgb(228, 224, 224);
+    box-shadow: 10px 10px grey;
+}
+
+.NumberCard h3 {
+    text-align: left;
+    color: #085ff7;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.NumberCard h2 {
+    text-align: left;
+    padding-top: 20px;
+    color: #000;
+    font-size: 1.625rem;
+    font-weight: 700;
+}
+
+.NumberCard p {
+    padding-top: 20px;
+    text-align: left;
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 700px) {
+    .CardContainer {
+        width: 360px;
+        flex-wrap: wrap;
+    }
+}

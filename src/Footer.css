@@ -1,0 +1,19 @@
+/* main container */
+.btns-container {
+    background-color: #faf9f8;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* button */
+.buttons {
+    padding-top: 20px;
+}
+
+/* inside btn-content */
+.whiteSec {
+    color: white !important;
+    font-size: 15px;
+    font-weight: bold;
+}

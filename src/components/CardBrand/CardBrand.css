@@ -1,0 +1,35 @@
+.TagSection {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.TagImageCard {
+    max-width: 350px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .TagSection {
+      flex-wrap: wrap;
+    }
+
+    .TagImageCard {
+        max-width: 350px;
+        height: 350px;
+        padding: 30px;
+        margin: 30px;
+    }
+    
+}
+
+.TagImageCard {
+    text-align: center;
+}
+
+.TagImageCard .logo {
+    width: 40%;
+}

@@ -1,0 +1,28 @@
+.AdviceSec {
+    margin: auto;
+    padding: 1rem!important;
+    margin: 1rem!important;
+    text-align: center;
+}
+
+.AdviceSec a {
+    text-decoration: none;
+}
+
+.icl-GlobalFooter-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.icl-GlobalFooter-items {
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.icl-GlobalFooter-item .icl-GlobalFooter-link{
+    color: #2d2d2d;
+}
+
+li {
+    list-style-type: none;
+}

@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+.ReviewsSection {
+    background-color: rgb(236, 233, 233);
+}
+
+/* Great search container */
+
+.GreatSearchSection {
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.GreatInnerSection {
+    display: flex;
+    padding: 50px 50px;
+    flex-direction: column;
+}
+
+.SearchCompanyBox {
+    display: flex;
+}
+
